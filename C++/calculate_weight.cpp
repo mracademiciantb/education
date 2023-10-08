@@ -1,6 +1,6 @@
 /*solution https://www.codecademy.com/courses/learn-c-plus-plus/lessons/cpp-conditionals-and-logic/exercises/review
 (B)*/
-
+// include Bard's recommendation and round to tenths
 
 #include <cmath>
 #include <iostream>
@@ -29,7 +29,8 @@ int main() {
   float weight_on_planet = earth_weight * gravity_coefficients[planet - 1];
 
   // **Output the result**
-  std::cout << "Your weight on " << planet << " is " << std::fixed << weight_on_planet << " kilograms.\n";
+  std::cout << "Your weight on " << planet << " is " << std::fixed << std::setprecision(2) << weight_on_planet << " kilograms.\n";
 
   return 0;
 }
+
