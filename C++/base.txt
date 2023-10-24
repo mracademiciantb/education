@@ -5,6 +5,9 @@ For named comp
 g++ -o hello hello.cpp
 ./hello
 
+
+echo $? // return 0 - its good, the command is executed
+
 ~large function~
                             -- main.cpp --
 #include <iostream>
