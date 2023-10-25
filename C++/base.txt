@@ -53,3 +53,7 @@ bool is_palindrome(std::string text) {
   return false;
 }
 -------     comp: g++ main.cpp fns.cpp    !!!!
+
+
+
+return (num % 2 == 0) ? "Even" : "Odd"; // This construction is a ternary operator
