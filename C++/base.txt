@@ -57,3 +57,4 @@ bool is_palindrome(std::string text) {
 
 
 return (num % 2 == 0) ? "Even" : "Odd"; // This construction is a ternary operator
+cin.get(); //console input or std::getline(std::cin, variable_name);
