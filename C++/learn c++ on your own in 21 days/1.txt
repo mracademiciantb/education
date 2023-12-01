@@ -1,0 +1,24 @@
+Таблица 3.2. Ключевые слова языка C++:
+
+| asm              | else           | new          | this         |
+| auto             | enum           | operator     | throw        |
+| bool             | explicit       | private      | true         |
+| break            | export         | protected    | try          |
+| case             | extern         | public       | typedef      |
+| catch            | false          | register     | typeid       |
+| char             | float          | reinterpret_cast | typename   |
+| class            | for            | return       | union        |
+| const            | friend         | short        | unsigned     |
+| const_cast       | goto           | signed       | using        |
+| continue         | if             | sizeof       | virtual      |
+| default          | delete         | do           | inline       |
+| int              | long           | mutable      | namespace    |
+| static           | static_cast    | struct       | switch       |
+| void             | volatile       | wchar_t      | while        |
+| double           | dynamic_cast   | template     |              |
+
+Зарезервированные слова:
+
+| and              | and_eq         | bitand       |
+| bitor           | compl          | not          |
+| not_eq          | or             | or_eq        |
