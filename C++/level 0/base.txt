@@ -1,0 +1,60 @@
+g++ "name file"  - for compilation
+./a.out  - for launch
+
+For named comp
+g++ -o hello hello.cpp
+./hello
+
+
+echo $? // return 0 - its good, the command is executed
+
+~large function~
+                            -- main.cpp --
+#include <iostream>
+//link to file with function headers: !!! "my_functions.hpp" or "my_functions.h."
+#include "fns.hpp"
+
+int main() {
+  
+  std::cout << is_palindrome("noon") << "\n";
+  std::cout << tenth_power(4) << "\n";
+  std::cout << average(4.0, 7.0) << "\n";
+  
+}
+                            -- fsn.hpp --
+// Move function declarations here:
+double average(double num1, double num2);
+int tenth_power(int num);
+bool is_palindrome(std::string text);
+
+                            -- fns.cpp --
+#include <iostream>
+#include <cmath>
+
+double average(double num1, double num2) {
+  return (num1 + num2) / 2;
+}
+
+int tenth_power(int num) {
+  return pow(num, 10);
+}
+
+bool is_palindrome(std::string text) {
+  std::string reversed_text = "";
+  
+  for (int i = text.size() - 1; i >= 0; i--) {
+    reversed_text += text[i];
+  }
+  
+  if (reversed_text == text) {
+    return true;
+  }
+  
+  return false;
+}
+-------     comp: g++ main.cpp fns.cpp    !!!!
+
+
+
+return (num % 2 == 0) ? "Even" : "Odd"; // This construction is a ternary operator
+cin.get(); //console input or std::getline(std::cin, variable_name);
