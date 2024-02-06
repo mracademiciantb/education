@@ -17,6 +17,9 @@ int main() {
     }
     std::cout << std::endl;
 
+    //Outputting a specific position of the vector
+     std::cout << vectorA[0] << std::endl;
+
     // Додавання елементу до вектора B
     int newElement = 42;
     vectorB.push_back(newElement);
