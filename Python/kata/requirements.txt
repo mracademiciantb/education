@@ -1,4 +1,0 @@
-tensorflow==2.13.1
-pandas
-scikit-learn
-Pillow
