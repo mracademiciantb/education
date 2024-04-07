@@ -1,0 +1,24 @@
+%c - Character
+%d - Decimal (int)
+%e - Scientific notation (exponential) float
+%E - Scientific notation (exponential) float (uppercase)
+%f - Decimal float
+%g - Use %e or %f, whichever is shorter
+%G - Use %E or %f, whichever is shorter
+%hi - Short int (unsigned)
+%hu - Unsigned short int
+%i - Integer
+%l - Long
+%ld - Long decimal integer
+%lf - Double
+%Lf - Long double
+%lu - Unsigned long integer
+%lli - Long long integer
+%llu - Unsigned long long integer
+%o - Octal integer
+%p - Pointer address
+%s - String
+%u - Unsigned decimal integer
+%x - Hexadecimal (lower-case)
+%X - Hexadecimal (upper-case)
+%% - Prints a % character
