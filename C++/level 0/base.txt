@@ -1,6 +1,9 @@
 g++ "name file"  - for compilation
 ./a.out  - for launch
 
+
+
+
 For named comp
 g++ -o hello hello.cpp
 ./hello

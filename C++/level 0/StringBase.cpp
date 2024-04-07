@@ -11,6 +11,8 @@ int main() {
 
     // 3. Знаходження підрядка
     size_t pos = str3.find("World");
+    
+ 
 
     // 4. Вилучення підрядка
     std::string str4 = str3.substr(0, 5);
@@ -61,3 +63,9 @@ int main() {
 
 
 ///  std::string greet(const std::string& n) {return "Hello, " + n + " how are you doing today?";}
+/*
+   char ch = str3[0];
+
+   std::reverse(str.begin(), str.end());
+   std::sort(str.rbegin(), str.rend());
+*/

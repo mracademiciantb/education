@@ -1,6 +1,7 @@
 /*
 #include <iostream>
 
+// to link to another file: extern
 // Define average() here:
 double average(double num1, double num2) {
 

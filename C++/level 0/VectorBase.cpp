@@ -62,3 +62,16 @@ int main() {
 
     return 0;
 }
+
+
+/*
+std::vector<int> vec;
+if (!vec.empty()) {
+    // Вектор не пустий
+} else {
+    // Вектор пустий
+}
+
+
+size_t length = vec.size();
+*/

@@ -12,7 +12,7 @@ int main() {
     std::cout << "Please choose ENCODE(1) or DECODE(2): ";
     std::cin >> choice;
 
-    if (in == 1) {
+    if (choice == 1) {
         std::cout << "Please enter number: ";
         std::cin >> shift;
 
@@ -43,12 +43,12 @@ int main() {
 
         for (char& letter : word) {
             if (isalpha(letter)) {
-                letter = rotor3[letter - 'A' + shift + 1 + 1];
+                letter = rotor2[letter - 'A' + shift + 1 + 1];
             }
         }
         std::cout << "encoded message: " << word << endl;
         //std::cout << "message: " << word << endl;
-    } else if (in == 2) {
+    } else if (choice == 2) {
         // Code to decode the message
     } else {
         std::cout << "Invalid input";
